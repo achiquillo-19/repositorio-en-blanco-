@@ -1,0 +1,18 @@
+Prueba de la ruta POST /registro
+
+Se envió una petición POST a http://localhost:3000/registro
+con el siguiente JSON:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+la Respuesta del servidor:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Este servidor recibe los datos del cuerpo de la petición (req.body),
+los extrae y los devuelve en formato JSON confirmando que fueron recibidos correctamente.
