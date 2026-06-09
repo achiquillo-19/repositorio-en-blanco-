@@ -1,0 +1,19 @@
+Comando uname -a:
+Resultado: MINGW64_NT-10.0-19045 DESKTOP-902DOCR 3.6.7-fb42d713.x86_64 
+2026-03-29 11:44 UTC x86_64 Msys
+
+Muestra información del sistema operativo, la versión del kernel,
+el nombre del equipo, la arquitectura del procesador y la fecha
+de compilación del sistema.
+
+Comando whoami:
+Resultado:Ana Isabel
+
+Muestra el nombre del usuario que está ejecutando la terminal
+en ese momento.
+
+¿Por qué es útil conocer esta información?
+Cuando se administra un servidor es importante saber qué sistema
+operativo está corriendo y con qué usuario se están ejecutando
+los comandos, para evitar errores de permisos y garantizar
+que los procesos corran de forma segura.
